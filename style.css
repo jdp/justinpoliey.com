@@ -1,0 +1,135 @@
+/**
+ * Color scheme from
+ * http://www.colourlovers.com/palette/2417518/Wow_Thats_it!!!!!!!
+ */
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    display: none;
+}
+
+article {
+    height: 100%;
+}
+
+.panels {
+    list-style: none;
+    padding: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    margin: 0;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    height: 50%;
+}
+
+.panels li {
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+
+.panels li > .cell {
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+}
+
+.panels .info > .cell {
+    color: #333;
+}
+
+.panels .info h2 {
+    margin: 0;
+}
+
+.panels .info h2 > span {
+    font-size: 32px;
+    padding-bottom: 8px;
+    border-bottom: 8px solid #333;
+}
+
+.panels .service > .cell {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background: -webkit-gradient(linear, left top, left bottom,
+        color-stop(0%,#DC89CD),
+        color-stop(100%,#89DCD7));
+    text-decoration: none;
+}
+
+.panels .service > .cell:hover span {
+    border-bottom: 8px solid #fff;
+}
+
+.panels .twitter > .cell {
+    background: -webkit-gradient(linear, left top, left bottom,
+        color-stop(0%,#DC89CD),
+        color-stop(100%,#89DCD7));
+    background: -moz-linear-gradient(top, #DC89CD 0%, #89DCD7 100%);
+}
+
+.panels .github > .cell {
+    background: -webkit-gradient(linear, left top, left bottom,
+        color-stop(0%,#DD5179),
+        color-stop(100%,#F9F7A7));
+    background: -moz-linear-gradient(top, #DD5179 0%, #F9F7A7 100%);
+}
+
+.panels .stack-overflow > .cell {
+    background: -webkit-gradient(linear, left top, left bottom,
+        color-stop(0%,#24A1F4),
+        color-stop(100%,#F9F7A7));
+    background: -moz-linear-gradient(top, #24A1F4 0%, #F9F7A7 100%);
+}
+
+.panels .tumblr > .cell {
+    background: -webkit-gradient(linear, left top, left bottom,
+        color-stop(0%,#89DCD7),
+        color-stop(100%,#DD5179));
+    background: -moz-linear-gradient(top, #89DCD7 0%, #DD5179 100%);
+}
+
+.panels .rdio > .cell {
+    background: -webkit-gradient(linear, left top, left bottom,
+        color-stop(0%,#DC89CD),
+        color-stop(100%,#F9F7A7));
+    background: -moz-linear-gradient(top, #DC89CD 0%, #F9F7A7 100%);
+}
+
+.panels .getglue > .cell {
+    background: -webkit-gradient(linear, left top, left bottom,
+        color-stop(0%,#F9F7A7),
+        color-stop(100%,#89DCD7));
+    background: -moz-linear-gradient(top, #F9F7A7 0%, #89DCD7 100%);
+}
+
+.panels .linkedin > .cell {
+    background: -webkit-gradient(linear, left top, left bottom,
+        color-stop(0%,#DD5179),
+        color-stop(100%,#24A1F4));
+    background: -moz-linear-gradient(top, #DD5179 0%, #24A1F4 100%);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="The homepage of Justin Poliey, a NYC based web developer working at GetGlue">
+        <meta name="author" content="Justin Poliey">
+        <title>Justin Poliey</title>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Justin Poliey</h1>
+        </header>
+        <article>
+            <ul class="panels">
+                <li class="info">
+                    <div class="cell">
+                        <h2><span>Justin Poliey</span></h2>
+                    </div>
+                </li>
+                <!-- <li class="service getglue">GetGlue</li> -->
+                <li class="service github">
+                    <a class="cell" href="http://github.com/jdp">GitHub</a>
+                </li>
+                <li class="service twitter">
+                    <a class="cell" href="http://twitter.com/justinpoliey">Twitter</a>
+                </li>
+                <li class="service stack-overflow">
+                    <a class="cell" href="http://stackoverflow.com/users/6967/justin-poliey">Stack Overflow</a>
+                </li>
+            </ul>
+            <ul class="panels">
+                <li class="service tumblr">
+                    <a class="cell" href="http://tumble.justinpoliey.com/">Tumblr</a>
+                </li>
+                <li class="service rdio">
+                    <a class="cell" href="http://www.rdio.com/people/jdp/">Rdio</a>
+                </li>
+                <li class="service getglue">
+                    <a class="cell" href="http://getglue.com/jdp">GetGlue</a>
+                </li>
+                <li class="service linkedin">
+                    <a class="cell" href="http://www.linkedin.com/profile/view?id=18652837">LinkedIn</a>
+                </li>
+            </ul>
+        </article>
+    </body>
+</html>
