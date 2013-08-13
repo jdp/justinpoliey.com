@@ -27,6 +27,6 @@ deploy:
 		--archive                                \
 		--compress                               \
 		--cvs-exclude                            \
-		--exclude-from=.gitignore                \
+		--exclude=.git                           \
 		.                                        \
 		$(REMOTEUSER)@$(REMOTEHOST):$(REMOTEDIR)

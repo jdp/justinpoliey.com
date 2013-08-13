@@ -66,7 +66,7 @@
     </nav>
 </div>
 <div id="content" class="content">
-
+<div class="wrap">
 <article>
 $if(title)$
 <h2 class="title">$title$</h2>
@@ -98,6 +98,7 @@ $endif$
 <footer>
 &copy; 2013 Justin Poliey
 </footer>
+</div>
 </div>
 </body>
 </html>
