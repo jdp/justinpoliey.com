@@ -1,12 +1,12 @@
 ## Contact
 
-Have a question?
 Want to work together?
-Want to let me know how great---or awful---something I've made is?
+Have a question?
+Just want to say hi?
 Get in touch!
 Send me an email at <span class="reverse">moc.liamg@yeilop.d.nitsuj</span>.
 
-You can find me online on [GitHub][github],
+You can find me across the web on [GitHub][github],
 [Stack Overflow][stack-overflow],
 [Coderwall][coderwall],
 [Twitter][twitter],
