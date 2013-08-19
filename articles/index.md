@@ -9,6 +9,13 @@ It's how this site is maintained.
 
 Write-up on how we built GetGlue's [Redis][redis]-powered autocomplete search, with example code.
 
+### [Source-to-Source Compilation][source-to-source-compilation]
+
+Wonder how languages like CoffeeScript or HAML work?
+Here's an introduction to source-to-source compilation,
+centered around writing a Brainfuck compiler in Python that emits C.
+
 [autocomplete-search-with-redis]: http://engineering.getglue.com/post/36667374830/autocomplete-search-with-redis
 [redis]: http://redis.io
+[source-to-source-compilation]: 2012-03-30-source-to-source-compilation.html
 [static-sites-with-make]: static-sites-with-make.html

@@ -14,13 +14,13 @@ It's the accompanying code to an article about [source-to-source compilation][s2
 
 A [concatenative language][cat-lang] is a language in which programs are structured through the composition of functions
 instead of the application of functions to arguments.
-I made a toy interpreter for one that supports tail calls,
+I made a toy interpreter for one that supports tail calls
 whose syntax is inspired by [Factor][factor].
 
 [bf-to-c-compiler]: https://gist.github.com/jdp/2237916
 [brainfuck]: http://www.muppetlabs.com/~breadbox/bf/
 [cat-lang]: http://concatenative.org/wiki/view/Concatenative%20language
 [factor]: http://factorcode.org
-[gists]: http://gist.github.com
+[gists]: http://gist.github.com/jdp
 [little-tailrec-lang]: https://gist.github.com/jdp/731475
 [s2s-compiling]: http://blog.justinpoliey.com/transpiling-languages-an-intro-with-brainfuck.html
