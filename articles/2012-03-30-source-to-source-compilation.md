@@ -49,7 +49,7 @@ The nested structure is typically referred to as the _syntax tree_.
 
 Brainfuck only has a couple syntax rules:
 
-* Any token that is not `+`, `-`, `<`, `>`, `,`, `.`, `[` or `]` is ignored
+* All tokens except `+` `-` `<` `>` `,` `.` `[` `]` are ignored
 * An opening brace `[` must have a matching closing brace `]`
 
 Our parser should enforce these syntax rules,
