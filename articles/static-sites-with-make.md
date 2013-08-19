@@ -93,9 +93,8 @@ if you were so inclined.
 While this workflow works great for me,
 there are are some shortcomings.
 It's not immediately useful for managing something like a blog.
-If you want a blog-aware static site generator that works out of the box,
-use [Jekyll][jekyll],
-or brush up on your shell scripting and let me know what you come up with!
+Not that it can't be done,
+it's just not part of my use case yet.
 
 [make-homepage]: http://www.gnu.org/software/make/
 [make-makefiles]: http://www.gnu.org/software/make/manual/html_node/Introduction.html#Introduction
