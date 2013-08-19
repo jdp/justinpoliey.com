@@ -55,7 +55,8 @@ code {
 
 pre > code {
     display: block;
-    border-left: 8px solid #24A1F4;
+    border-left: 2px solid #eee;
+    margin-left: -20px;
     padding-left: 20px;
 }
 
@@ -81,16 +82,16 @@ ul {
     top: 0;
     left: 0;
     bottom: 0;
-    /*background: -webkit-gradient(linear, left top, left bottom,
+    background: -webkit-gradient(linear, left top, left bottom,
         color-stop(0%,#24A1F4),
         color-stop(100%,#F9F7A7));
-    background: -moz-linear-gradient(top, #24A1F4 0%, #F9F7A7 100%);*/
+    background: -moz-linear-gradient(top, #24A1F4 0%, #F9F7A7 100%);
     /*background: -webkit-gradient(linear, left top, left bottom,
         color-stop(0%,#DD5179),
         color-stop(100%,#F9F7A7));
     background: -moz-linear-gradient(top, #DD5179 0%, #F9F7A7 100%);*/
-    background: url(http://farm5.staticflickr.com/4032/4590521870_944b712e47_o.jpg);
-    background-position: center;
+/*    background: url(http://farm5.staticflickr.com/4032/4590521870_944b712e47_o.jpg);
+    background-position: center;*/
     /*background-size: cover;*/
     /*background: url(http://31.media.tumblr.com/89766342a242f529b8889240342898cf/tumblr_mp6s4dzqHA1st5lhmo1_1280.jpg);*/
 }
