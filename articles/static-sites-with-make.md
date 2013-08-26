@@ -3,7 +3,7 @@
 This website is built with a simple static site generator.
 Like most of the other systems,
 pages are edited in Markdown and then later emitted as HTML.
-You probably even have it installed already---
+The cool thing about this one is that probably have it installed already ---
 it's just `make(1)`!
 From the [homepage][make-homepage]:
 
