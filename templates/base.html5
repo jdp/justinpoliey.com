@@ -51,19 +51,18 @@
 </head>
 <body>
 <div id="sidebar" class="sidebar">
-    <header>
-    <h1><a href="/">Justin
-    Poliey</a></h1>
-    </header>
-    <nav>
-        <ul>
-            <li class="listing"><a href="/articles/">Articles</a></li>
-            <li class="listing"><a href="/projects/">Projects</a></li>
-            <li class="listing"><a href="/sketches/">Sketches</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-            <li><a href="/colophon.html">Colophon</a></li>
-        </ul>
-    </nav>
+    <div class="wrap">
+        <header>
+        <h1><a href="/">Justin Poliey</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li class="listing"><a href="/articles/">Articles</a></li>
+                <li class="listing"><a href="/projects/">Projects</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </div>
 <div id="content" class="content">
 <div class="wrap">
@@ -96,7 +95,7 @@ $if(title)$
 $endif$
 
 <footer>
-&copy; 2013 Justin Poliey
+&copy; 2013 Justin Poliey &bull; <a href="/colophon.html">Colophon</a>
 </footer>
 </div>
 </div>
