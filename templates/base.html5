@@ -57,9 +57,8 @@
         </header>
         <nav>
             <ul>
-                <li class="listing"><a href="/articles/">Articles</a></li>
-                <li class="listing"><a href="/projects/">Projects</a></li>
-                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/">Main</a></li>
+                <li><a href="/about.html">About</a></li>
             </ul>
         </nav>
     </div>
@@ -95,7 +94,7 @@ $if(title)$
 $endif$
 
 <footer>
-&copy; 2013 Justin Poliey &bull; <a href="/colophon.html">Colophon</a>
+&copy; 2013 Justin Poliey
 </footer>
 </div>
 </div>
