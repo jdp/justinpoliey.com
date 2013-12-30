@@ -1,9 +1,23 @@
+@media screen and (orientation: landscape) {
+    @-ms-viewport {
+        width: 768px;
+        zoom: 1.0;
+    }
+}
+
 body {
+    background-color: #fcfcfc;
     font-family: Merriweather, serif;
     font-size: 18px;
     margin: 0;
     padding: 0;
     color: #333;
+}
+
+@media (max-width:759px) {
+    body {
+        font-size: 16px;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,6 +53,10 @@ article a {
 
 article a:hover {
     border-bottom: 2px #555 solid;
+}
+
+article p {
+    text-align: justify;
 }
 
 a > img {
@@ -79,11 +97,14 @@ ul {
 
 .sidebar {
     color: #fff;
-    background: #DC89CD;
-    background: -webkit-gradient(linear, left center, right center,
+    background-color: #DC89CD;
+    background-image: linear-gradient(to right, #DC89CD 0%, #89DCD7 100%);
+    background-image: -webkit-gradient(linear, left center, right center,
         color-stop(0%,#DC89CD),
         color-stop(100%,#89DCD7));
-    background: -moz-linear-gradient(left, #DC89CD 0%, #89DCD7 100%);
+    background-image: -webkit-linear-gradient(left, #DC89CD 0%, #89DCD7 100%);;
+    background-image: -moz-linear-gradient(left, #DC89CD 0%, #89DCD7 100%);
+    background-image: -ms-linear-gradient(left, #DC89CD 0%, #89DCD7 100%);
 }
 
 .sidebar a {
@@ -179,12 +200,6 @@ footer a {
     color: #ccc;
     border: none;
     border-bottom: 2px solid #eee;
-}
-
-@media (max-width:759px) {
-    body {
-        font-size: 16px;
-    }
 }
 
 .reverse {
