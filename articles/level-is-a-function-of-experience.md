@@ -49,7 +49,7 @@ In this scenario two variables need to be maintained,
 one for the experience and one for the level.
 They are only kept in agreement by code that handles them,
 which can be both inflexible and prone to bugs.
-A more robust way to handle this without loops and updating too many variables emerges after noticing that the numbers in the Total column follow an arithmetic progression!
+A more robust way to handle this without loops and updating too many variables emerges after noticing that the numbers in the Total column follow an arithmetic progression.
 *Mathematical!*
 Recognizing this will let you treat entities' levels as functions of their experience instead of as extra variables independent of it.
 The level can be derived from the XP by doing a little bit of algebra,
