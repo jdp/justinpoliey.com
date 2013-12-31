@@ -31,7 +31,7 @@ centered around writing a Brainfuck compiler in Python that emits C.
 
 In role-playing games,
 character progression is usually implemented with a lot of mutable state.
-By eliminating that mutable state,
+By eliminating some of that mutable state,
 complexity is decreased and flexibility is increased.
 
 ## Projects
