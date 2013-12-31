@@ -22,9 +22,17 @@ Here's an introduction to source-to-source compilation,
 centered around writing a Brainfuck compiler in Python that emits C.
 
 [autocomplete-search-with-redis]: http://engineering.getglue.com/post/36667374830/autocomplete-search-with-redis
+[level-is-a-function-of-experience]: /articles/level-is-a-function-of-experience.html
 [make-for-front-end-development]: /articles/make-for-front-end-development.html
 [source-to-source-compilation]: /articles/2012-03-30-source-to-source-compilation.html
 [static-sites-with-make]: /articles/static-sites-with-make.html
+
+### [Level is a Function of Experience][level-is-a-function-of-experience]
+
+In role-playing games,
+character progression is usually implemented with a lot of mutable state.
+By eliminating that mutable state,
+complexity is decreased and flexibility is increased.
 
 ## Projects
 
