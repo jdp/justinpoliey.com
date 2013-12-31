@@ -30,7 +30,7 @@ centered around writing a Brainfuck compiler in Python that emits C.
 ### [Level is a Function of Experience][level-is-a-function-of-experience]
 
 In role-playing games,
-character progression is usually implemented with a lot of mutable state.
+character progression is usually implemented with unnecessary mutable state.
 By eliminating some of that mutable state,
 complexity is decreased and flexibility is increased.
 

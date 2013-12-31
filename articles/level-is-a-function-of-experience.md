@@ -1,10 +1,14 @@
 % Level is a Function of Experience
 
-If you're making a role-playing game,
-you probably have entities that level up through experience points or some other counter that represents the progress through the game made by the entity.
-You also probably have to fiddle with the XP and level variables every time the character levels up,
-and that can be fragile and annoying.
-Here's a simple and robust way to represent a character's level without writing too much brittle code.
+In role-playing games,
+entities like the player usually have their progress through the game quantified by experience points.
+There is also a secondary statistic,
+level,
+that more quickly lets the player gauge the relative experience difference between two entities.
+A common approach to building this system involves a little too much mutable state,
+having variables for each statistic.
+By minimizing that mutable state,
+developers can make the code for dealing with player progress less brittle and more flexible.
 
 ## The Experience Table
 
