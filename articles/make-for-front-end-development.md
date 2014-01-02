@@ -19,7 +19,7 @@ target ... : prerequisites ...
     ...
 ```
 
-Rules are made up of *targets*, their dependencies (*prerequisites*), and steps (*recipes*) for resolving those dependencies. The targets and their prerequisites are typically files, and the target requires that the prerequisites be generated before the recipe can be run. What makes this approach so useful is that one target can be a prerequisite of another, and **make** implicitly figures out how and when to resolve them. The recipes are just shell commands, and are only invoked when necessary.
+Rules are made up of *targets*, their dependencies (*prerequisites*), and steps (*recipes*) for resolving those dependencies. The targets and their prerequisites are typically files, and the the recipes describe the steps to generate the targets from the prerequisites. What makes this approach so useful is that one target can be a prerequisite of another, and **make** implicitly figures out how and when to resolve them. The recipes are just shell commands, and are only invoked when necessary.
 
 You can read more about [how **make** processes makefiles](http://www.gnu.org/software/make/manual/make.html#How-Make-Works) in the manual.
 
