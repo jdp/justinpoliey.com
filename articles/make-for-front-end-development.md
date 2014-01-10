@@ -92,7 +92,7 @@ The most significant change to the makefile is that our rule for generating Java
 
 ## Handling Other Tasks
 
-As we've worked on our app, we've noticed that not all tasks are easily or clearly defined in terms of target files and their prequisites. For example, how do we clean up our working directory after building our app? It's littered with JavaScript files that we don't need to keep around. We can address cases like this with [phony tasks](http://www.gnu.org/software/make/manual/make.html#Phony-Targets), which are similar to tasks in other systems. They're just named recipes to execute on request. Here's our updated makefile with a `clean` task to remove our unnecessary JavaScript files:
+As we've worked on our app, we've noticed that not all tasks are easily or clearly defined in terms of target files and their prequisites. For example, how do we clean up our working directory after building our app? It's littered with JavaScript files that we don't need to keep around. We can address cases like this with [phony targets](http://www.gnu.org/software/make/manual/make.html#Phony-Targets), which are similar to tasks in other systems. They're just named recipes to execute on request. Here's our updated makefile with a `clean` task to remove our unnecessary JavaScript files:
 
 ``` makefile
 COFFEE = model.coffee view.coffee controller.coffee
@@ -118,4 +118,4 @@ clean:
 
 ## Onward From Here
 
-By now, you should be able to add some other features to the makefile we've built up. As an exercise, you can try to add rules to compress the JavaScript with [UglifyJS](http://lisperator.net/uglifyjs/) or the [Closure Compiler](https://developers.google.com/closure/compiler/). Add a phony task to start a web server, or to watch source files for changes and re-run **make** automatically. Maybe you won't use **make** in your day-to-day work, but that's okay, because it might influence the way you organize your other build processes. If you decide to give it a permanent place in your toolbox though, you'll find it well-suited for all sorts of computing tasks, including those outside of software development.
+By now, you should be able to add some other features to the makefile we've built up. As an exercise, you can try to add rules to compress the JavaScript with [UglifyJS](http://lisperator.net/uglifyjs/) or the [Closure Compiler](https://developers.google.com/closure/compiler/). Add a phony target to start a web server, or to watch source files for changes and re-run **make** automatically. Maybe you won't use **make** in your day-to-day work, but that's okay, because it might influence the way you organize your other build processes. If you decide to give it a permanent place in your toolbox though, you'll find it well-suited for all sorts of computing tasks, including those outside of software development.
