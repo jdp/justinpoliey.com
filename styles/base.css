@@ -100,14 +100,14 @@ ul {
 
 .sidebar {
     color: #fff;
-    background-color: #DC89CD;
-    background-image: linear-gradient(to right, #DC89CD 0%, #89DCD7 100%);
+    background-color: #463E70;
+    background-image: linear-gradient(to right, #463E70 0%, #89DCD7 100%);
     background-image: -webkit-gradient(linear, left center, right center,
-        color-stop(0%,#DC89CD),
+        color-stop(0%,#463E70),
         color-stop(100%,#89DCD7));
-    background-image: -webkit-linear-gradient(left, #DC89CD 0%, #89DCD7 100%);;
-    background-image: -moz-linear-gradient(left, #DC89CD 0%, #89DCD7 100%);
-    background-image: -ms-linear-gradient(left, #DC89CD 0%, #89DCD7 100%);
+    background-image: -webkit-linear-gradient(left, #463E70 0%, #89DCD7 100%);;
+    background-image: -moz-linear-gradient(left, #463E70 0%, #89DCD7 100%);
+    background-image: -ms-linear-gradient(left, #463E70 0%, #89DCD7 100%);
 }
 
 .sidebar a {
