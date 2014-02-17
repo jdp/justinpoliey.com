@@ -39,6 +39,8 @@ h1 > a, h3 > a {
 
     article section {
         display: inline-block;
+        page-break-inside: avoid;
+        -webkit-column-break-inside: avoid;
     }
 }
 

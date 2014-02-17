@@ -46,12 +46,14 @@ $if(title)$
 $endif$
 $body$
 </article>
+</div>
+</div>
 
 <footer>
-&copy; 2013 Justin Poliey
+    <div class="wrap">
+        &copy; 2013 Justin Poliey
+    </div>
 </footer>
-</div>
-</div>
 
 <script type="text/javascript">
     var _gaq = _gaq || [];
