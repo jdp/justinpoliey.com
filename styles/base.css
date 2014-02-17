@@ -1,6 +1,6 @@
 body {
     font-family: Inconsolata, monospace;
-    line-height: 1.4em;
+    line-height: 140%;
     color: #333;
     margin: 0;
     padding: 0;
@@ -8,11 +8,14 @@ body {
 
 h1 {
     margin: 1em 0;
-    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 120%;
 }
 
 a {
-    color: #7A64AD;
+    color: #7A16F2;
     text-decoration: none;   
 }
 
@@ -21,7 +24,7 @@ a:hover {
 }
 
 h3 > a {
-    border-bottom: solid #7A64AD 2px;
+    border-bottom: solid #7A16F2 2px;
 }
 
 h3 > a:hover {
@@ -31,6 +34,16 @@ h3 > a:hover {
 .wrap {
     margin-left: 2em;
     margin-right: 2em;
+}
+
+.contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact li:before {
+    content: "\2014";
 }
 
 footer {

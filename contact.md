@@ -1,3 +1,4 @@
+<div class="contact">
 * [GitHub][github]
 * [Stack Overflow][stack-overflow]
 * [Coderwall][coderwall]
@@ -5,6 +6,7 @@
 * [LinkedIn][linkedin]
 * [Tumblr][tumblr]
 * [IRC][irc]
+</div>
 
 [github]: http://github.com/jdp
 [stack-overflow]: http://stackoverflow.com/users/6967/justin-poliey
