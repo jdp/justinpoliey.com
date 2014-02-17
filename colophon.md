@@ -17,5 +17,5 @@ and rsync.
 [Here's how][static-sites-with-make].
 
 [pandoc]: http://johnmacfarlane.net/pandoc
-[static-sites-with-make]: /articles/static-sites-with-make.html
+[static-sites-with-make]: /articles/static-sites-with-make/
 [webfonts]: http://www.google.com/fonts/

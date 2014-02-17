@@ -1,0 +1,148 @@
+@media screen and (orientation: landscape) {
+    @-ms-viewport {
+        width: 768px;
+        zoom: 1.0;
+    }
+}
+
+body {
+    background-color: #fcfcfc;
+    font-family: Merriweather, serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+@media (max-width:759px) {
+    body {
+        font-size: 16px;
+    }
+    body .wrap {
+        margin: 0 20px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2, h3, h4 {
+    margin: 1.4em 0 0.7em 0;
+}
+
+h2:first-child, h3:first-child {
+    margin-top: 0;
+}
+
+p, ul, li, h2, h3, h4 {
+    line-height: 1.6em;
+}
+
+p {
+    margin: 0.7em 0 1.4em 0;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+h1 a {
+    color: #7A64AD;
+}
+
+article a {
+    border-bottom: 2px #eee solid;
+}
+
+article a:hover {
+    border-bottom: 2px #555 solid;
+}
+
+article p {
+    text-align: justify;
+}
+
+a > img {
+    border: none;
+}
+
+code {
+    font-family: Inconsolata, monospace;
+}
+
+pre > code {
+    display: block;
+    border-left: 2px solid #eee;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+p > code, li > code {
+    background: #eee;
+    padding: 4px 4px;
+}
+
+blockquote {
+    margin-left: 0;
+    padding-left: 28px;
+    font-style: italic;
+}
+
+hr {
+    border: solid #eee 4px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+header h1 {
+}
+
+header a {
+    white-space: pre-line;
+}
+article {
+    max-width: 760px;
+    margin: auto;
+}
+
+.wrap {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.comments {
+    max-width: 760px;
+    margin: 4em auto 0 auto;
+}
+
+footer {
+    border-top: 8px solid #eee;
+    color: #ccc;
+    margin: 1em auto;
+    max-width: 760px;
+    padding-top: 1em;
+}
+
+footer a {
+    color: #ccc;
+    border: none;
+    border-bottom: 2px solid #eee;
+}
+
+.reverse {
+  unicode-bidi: bidi-override;
+  -webkit-unicode-bidi: bidi-override;
+  direction: rtl;
+}

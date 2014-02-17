@@ -12,34 +12,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <meta name="viewport" content="target-densitydpi=device-dpi">
     <title>$if(title)$$title$ - $endif$Justin Poliey</title>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link href="/styles/base.css" rel="stylesheet" type="text/css">
     <style type="text/css">code{white-space: pre;}</style>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     $if(quotes)$
     <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
     $endif$
-    $if(highlighting-css)$
-    <style type="text/css">
-    $highlighting-css$
-    </style>
-    $endif$
     $for(css)$
     <link rel="stylesheet" href="$css$">
     $endfor$
-    $if(math)$
-        $math$
-    $endif$
     $for(header-includes)$
     $header-includes$
     $endfor$
+</head>
+<body>
 
-    <script type="text/javascript">
+<div>
+    <div class="wrap">
+        <header>
+        <h1><a href="/">Justin Poliey</a></h1>
+        </header>
+    </div>
+</div>
+
+<div id="content" class="content">
+<div class="wrap">
+<article>
+$if(title)$
+<h2 class="title">$title$</h2>
+$endif$
+$body$
+</article>
+
+<footer>
+&copy; 2013 Justin Poliey
+</footer>
+</div>
+</div>
+
+<script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-6944790-1']);
     _gaq.push(['_trackPageview']);
@@ -48,57 +62,7 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-    </script>
-</head>
-<body>
-<div id="sidebar" class="sidebar">
-    <div class="wrap">
-        <header>
-        <h1><a href="/">Justin Poliey</a></h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="/">Work</a></li>
-                <li><a href="/about.html">About</a></li>
-            </ul>
-        </nav>
-    </div>
-</div>
-<div id="content" class="content">
-<div class="wrap">
-<article>
-$if(title)$
-<h2 class="title">$title$</h2>
-$endif$
-
-$body$
-</article>
-
-$if(title)$
-<div class="comments">
-    <hr>
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'justinpolieycom'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-$endif$
-
-<footer>
-&copy; 2013 Justin Poliey
-</footer>
-</div>
-</div>
+</script>
 <script type="text/javascript">
   var _rangefinder_queue = _rangefinder_queue || [];
   _rangefinder_queue.push(['track', 10]);
