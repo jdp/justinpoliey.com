@@ -2,10 +2,13 @@ body {
     font-family: Inconsolata, monospace;
     line-height: 1.4em;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     margin: 1em 0;
+    text-transform: uppercase;
 }
 
 a {
@@ -22,9 +25,17 @@ h1 > a, h3 > a {
     border-bottom: solid #7A64AD 2px;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 .wrap {
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+footer {
+    border-top: 1px solid #eee;
 }
 
 @media only screen and (min-width: 768px) {

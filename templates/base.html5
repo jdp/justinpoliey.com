@@ -51,7 +51,7 @@ $body$
 
 <footer>
     <div class="wrap">
-        &copy; 2014 Justin Poliey
+        <p>&copy; 2014 Justin Poliey</p>
     </div>
 </footer>
 
