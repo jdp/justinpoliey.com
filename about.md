@@ -1,14 +1,11 @@
 ## Hello
 
 I'm Justin
-and I work at [GetGlue][getglue],
-a deeply personalized,
-social and connected experience around television, movies, and sports.
+and I work at [i.TV][itv] on the tvtag platform.
+Previously,
+I was director of backend engineering at [GetGlue][getglue].
 
-I appreciate thoughtful design and its complementary code.
-When I'm not helping build out the architecture that powers the new generation of GetGlue's website and mobile apps,
-I'm probably still hacking---[just on something else][github-jdp].
-
-[getglue]: http://getglue.com
+[getglue]: https://angel.co/getglue
 [github-jdp]: http://github.com/jdp
+[itv]: http://i.tv
 
