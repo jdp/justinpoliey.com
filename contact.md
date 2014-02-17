@@ -4,7 +4,7 @@
 * [Twitter][twitter]
 * [LinkedIn][linkedin]
 * [Tumblr][tumblr]
-* [Freenode][freenode]
+* [IRC][irc]
 
 [github]: http://github.com/jdp
 [stack-overflow]: http://stackoverflow.com/users/6967/justin-poliey
@@ -12,5 +12,5 @@
 [twitter]: http://twitter.com/justinpoliey
 [linkedin]: http://www.linkedin.com/profile/view?id=18652837
 [tumblr]: http://tumble.justinpoliey.com/
-[freenode]: http://freenode.net/
+[irc]: irc://irc.freenode.net/jdp,isnick
 
