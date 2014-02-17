@@ -11,6 +11,10 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 a {
     color: #7A64AD;
     text-decoration: none;   
@@ -18,15 +22,14 @@ a {
 
 a:hover {
     color: #333;
-    border-bottom: solid #333 2px;
 }
 
-h1 > a, h3 > a {
+h3 > a {
     border-bottom: solid #7A64AD 2px;
 }
 
-h2 {
-    text-transform: uppercase;
+h3 > a:hover {
+    border-bottom: solid #333 2px;
 }
 
 .wrap {
