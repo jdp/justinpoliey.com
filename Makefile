@@ -44,11 +44,4 @@ serve:
 	python -m SimpleHTTPServer 8080
 
 deploy:
-	rsync                                        \
-		--verbose                                \
-		--archive                                \
-		--compress                               \
-		--cvs-exclude                            \
-		--exclude=.git                           \
-		.                                        \
-		$(REMOTEUSER)@$(REMOTEHOST):$(REMOTEDIR)
+	rsync --verbose --archive --compress --cvs-exclude --exclude=.git . $(REMOTEUSER)@$(REMOTEHOST):$(REMOTEDIR)
