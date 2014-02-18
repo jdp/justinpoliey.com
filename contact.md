@@ -1,13 +1,7 @@
-<div class="contact">
-* [GitHub][github]
-* [Stack Overflow][stack-overflow]
-* [Coderwall][coderwall]
-* [Twitter][twitter]
-* [LinkedIn][linkedin]
-* [Tumblr][tumblr]
-* [IRC][irc]
-</div>
+[justin.d.poliey@gmail.com][email] \
+[@justinpoliey][twitter]
 
+[email]: mailto:justin.d.poliey@gmail.com
 [github]: http://github.com/jdp
 [stack-overflow]: http://stackoverflow.com/users/6967/justin-poliey
 [coderwall]: https://coderwall.com/jdp

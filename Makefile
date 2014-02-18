@@ -16,7 +16,7 @@ index.html.fragment: $(FRAGMENTS)
 	cat $^ > $@
 
 $(FRAGMENTS): %.html: %.md templates/fragment.html5
-	pandoc -f markdown -t html5 --data-dir=. --template=fragment -o $@ $<
+	pandoc -f markdown-citations -t html5 --data-dir=. --template=fragment -o $@ $<
 
 .INTERMEDIATE: index.html.fragment $(FRAGMENTS)
 
