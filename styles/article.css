@@ -50,16 +50,44 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    margin-top: 2em;
+    font-size: 140%;
+}
+
 h1 a {
-    color: #7A64AD;
+    border-color: #999;
+    -moz-border-image: -moz-linear-gradient(top, #7A16F2, #F90CB9) 100% 1;
+    -o-border-image: -o-linear-gradient(top, #7A16F2, #F90CB9) 100% 1;
+    -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#7A16F2), to(#F90CB9)) 100% 1;
+    -webkit-border-image: -webkit-linear-gradient(left, #7A16F2, #F90CB9) 100% 1;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    color: #333;
+    padding-bottom: 4px;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+h1 a:hover {
+    -moz-border-image: -moz-linear-gradient(top, #F90CB9, #7A16F2) 100% 1;
+    -o-border-image: -o-linear-gradient(top, #F90CB9, #7A16F2) 100% 1;
+    -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#F90CB9), to(#7A16F2)) 100% 1;
+    -webkit-border-image: -webkit-linear-gradient(left, #F90CB9, #7A16F2) 100% 1;
+    color: #7A16F2;
+    /*border-bottom: solid #333 2px;*/
+}
+
+h2.title {
+    font-size: 200%;
 }
 
 article a {
-    border-bottom: 2px #eee solid;
+    border-bottom: 2px solid #eee;
 }
 
 article a:hover {
-    border-bottom: 2px #555 solid;
+    border-color: #333;
 }
 
 article p {
@@ -106,12 +134,10 @@ ul {
     margin-top: 40px;
 }
 
-header h1 {
-}
-
 header a {
     white-space: pre-line;
 }
+
 article {
     max-width: 760px;
     margin: auto;

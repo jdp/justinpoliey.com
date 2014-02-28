@@ -62,7 +62,7 @@
 <div class="wrap">
 <article>
 $if(title)$
-<h2 class="title">$title$</h2>
+<h2 class="title"><span>$title$</span></h2>
 $endif$
 
 $body$
