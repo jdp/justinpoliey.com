@@ -30,11 +30,26 @@ h3 em {
 }
 
 h3 > a {
-    border-bottom: solid #7A16F2 2px;
+    border-color: #999;
+    -moz-border-image: -moz-linear-gradient(top, #7A16F2, #F90CB9) 100% 1;
+    -o-border-image: -o-linear-gradient(top, #7A16F2, #F90CB9) 100% 1;
+    -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#7A16F2), to(#F90CB9)) 100% 1;
+    -webkit-border-image: -webkit-linear-gradient(left, #7A16F2, #F90CB9) 100% 1;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    color: #333;
+    padding-bottom: 4px;
+    -webkit-transition: color 1s;
+    transition: color 1s;
 }
 
 h3 > a:hover {
-    border-bottom: solid #333 2px;
+    -moz-border-image: -moz-linear-gradient(top, #F90CB9, #7A16F2) 100% 1;
+    -o-border-image: -o-linear-gradient(top, #F90CB9, #7A16F2) 100% 1;
+    -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#F90CB9), to(#7A16F2)) 100% 1;
+    -webkit-border-image: -webkit-linear-gradient(left, #F90CB9, #7A16F2) 100% 1;
+    color: #7A16F2;
+    /*border-bottom: solid #333 2px;*/
 }
 
 .wrap {
@@ -44,6 +59,7 @@ h3 > a:hover {
 
 aside {
     color: #999;
+    margin: 1em 0;
 }
 
 footer {
