@@ -14,7 +14,10 @@ Both in-memory storage and persistence with [Redis][redis] are bundled.
 
 A library and command-line tool for analyzing [Redis][redis] database files.
 
+<aside>Check out my other projects and contributions on [GitHub][github-jdp].</aside>
+
 [fuelphp]: http://fuelphp.com/
+[github-jdp]: http://github.com/jdp
 [io]: http://iolanguage.com/
 [laravel]: http://laravel.com/
 [laravel-redis]: http://forrst.com/posts/Meet_Laravel_2_0_A_Beautiful_PHP_Framework_For-rTm
