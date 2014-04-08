@@ -10,10 +10,6 @@ An in-process data store for working with tags and data for Python.
 Allows complex queries with `and`, `or`, and `not` operations.
 Both in-memory storage and persistence with [Redis][redis] are bundled.
 
-### [rdbtools][rdbtools] *Contributor*
-
-A library and command-line tool for analyzing [Redis][redis] database files.
-
 <aside>Check out my other projects and contributions on [GitHub][github-jdp].</aside>
 
 [fuelphp]: http://fuelphp.com/
