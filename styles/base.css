@@ -55,6 +55,7 @@ h3 > a:hover {
 .wrap {
     margin-left: 2em;
     margin-right: 2em;
+    max-width: 960px;
 }
 
 aside {
@@ -84,10 +85,10 @@ footer {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+/*@media only screen and (min-width: 1024px) {
     article {
         column-count: 3;
         -moz-column-count: 3;
         -webkit-column-count: 3;
     }
-}
+}*/
