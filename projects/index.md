@@ -10,11 +10,21 @@ An in-process data store for working with tags and data for Python.
 Allows complex queries with `and`, `or`, and `not` operations.
 Both in-memory storage and persistence with [Redis][redis] are bundled.
 
+### [urp][urp] *Owner*
+
+A command-line utility that can extract and modify URL features.
+It is for working with URLs in the shell in a structured way.
+
+### [jarg][jarg] *Owner*
+
+A command-line utility that provides a shorthand syntax for writing formats like JSON and form encoding in the shell.
+
 <aside>Check out my other projects and contributions on [GitHub][github-jdp].</aside>
 
 [fuelphp]: http://fuelphp.com/
 [github-jdp]: http://github.com/jdp
 [io]: http://iolanguage.com/
+[jarg]: http://jdp.github.io/jarg/
 [laravel]: http://laravel.com/
 [laravel-redis]: http://forrst.com/posts/Meet_Laravel_2_0_A_Beautiful_PHP_Framework_For-rTm
 [ooc]: http://ooc-lang.org/
@@ -22,4 +32,5 @@ Both in-memory storage and persistence with [Redis][redis] are bundled.
 [redis]: http://redis.io
 [redisent]: http://jdp.github.io/redisent/
 [taxon]: http://jdp.github.io/taxon/
+[urp]: http://jdp.github.com/urp/
 
