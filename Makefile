@@ -7,18 +7,18 @@ site: index.html articles
 
 # front page
 
-FRAGMENTS = about.html contact.html articles/index.html projects/index.html
-
 index.html: index.html.fragment templates/base.html5
 	pandoc -t html5 -S --data-dir=. --template=base -o $@ $<
 
+FRAGMENTS = about.html contact.html articles/index.html projects/index.html
+
+.INTERMEDIATE: index.html.fragment
 index.html.fragment: $(FRAGMENTS)
 	cat $^ > $@
 
+.INTERMEDIATE: $(FRAGMENTS)
 $(FRAGMENTS): %.html: %.md templates/fragment.html5
 	pandoc -f markdown-citations -t html5 --data-dir=. --template=fragment -o $@ $<
-
-.INTERMEDIATE: index.html.fragment $(FRAGMENTS)
 
 # articles
 
