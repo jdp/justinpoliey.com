@@ -19,7 +19,7 @@ It is for working with URLs in the shell in a structured way.
 
 A command-line utility that provides a shorthand syntax for writing formats like JSON and form encoding in the shell.
 
-<aside>Check out my other projects and contributions on [GitHub][github-jdp].</aside>
+<aside>I've also made contributions to [rdbtools][rdbtools], [io][io], and [ooc][ooc]. Check out the rest on [GitHub][github-jdp].</aside>
 
 [fuelphp]: http://fuelphp.com/
 [github-jdp]: http://github.com/jdp
