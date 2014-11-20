@@ -34,14 +34,11 @@ articles/%.html: articles/%.md templates/article.html5
 
 # maintenance tasks
 
-.PHONY: clean serve deploy
+.PHONY: clean deploy
 
 clean:
 	-rm index.html
 	-rm articles/*/index.html
-
-serve:
-	python -m SimpleHTTPServer 8080
 
 deploy:
 	rsync --verbose --archive --compress --cvs-exclude --exclude=.git . $(REMOTEUSER)@$(REMOTEHOST):$(REMOTEDIR)
