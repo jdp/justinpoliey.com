@@ -23,38 +23,6 @@ and the dependencies of those HTML files are their respective source Markdown fi
 We can give some rules for turning the Markdown into HTML and HTML into a site,
 and `make` will take care of the rest.
 
-Here's the [Makefile][make-makefiles] used to generate this site:
-
-```
-MDC = pandoc
-MDFLAGS = -f markdown -t html5 -S -s --data-dir=. --template=base
-MD = $(shell find . -name "*.md" -print)
-TEMPLATES = templates/base.html5
-HTML = ${MD:.md=.html}
-
-site: $(HTML)
-
-$(HTML): $(TEMPLATES)
-
-%.html: %.md
-    $(MDC) $(MDFLAGS) -o $@ $<
-
-.PHONY: clean serve deploy
-clean:
-    rm $(HTML)
-
-serve:
-    python -m SimpleHTTPServer 8080
-
-deploy:
-    rsync                                \
-        --verbose                        \
-        --archive                        \
-        --compress                       \
-        --exclude-from=.gitignore        \
-        .                                \
-        user@host.com:/var/www
-```
 
 One of the best things about using `make` to accomplish this task
 and ones like it
@@ -64,18 +32,14 @@ I can just drop a Makefile in my dang project directory and be done with it.
 
 ### My Workflow
 
-Some of the syntax is admittedly a little cryptic,
-but in that short Makefile the whole workflow for building the site is defined.
+In one short Makefile the whole workflow for building the site is defined.
+This website is built entirely with `make`, the [Makefile][site-makefile] is available to check out.
 It has targets for building the site,
-as well as cleaning out generated HTML files,
-starting an HTTP server to preview the site,
+cleaning out generated HTML files,
 and deploying the site to a remote host.
 
 When I want to build the site,
 I run `make`.
-
-When I need to preview it in a browser,
-I run `make serve`.
 
 When I'm ready to upload to my remote host,
 I run `make deploy`.
@@ -100,5 +64,6 @@ it's just not part of my use case yet.
 [make-makefiles]: http://www.gnu.org/software/make/manual/html_node/Introduction.html#Introduction
 [jekyll]: http://jekyllrb.com
 [pandoc]: http://johnmacfarlane.net/pandoc
+[site-makefile]: https://github.com/jdp/justinpoliey.com/blob/master/Makefile
 [unix-as-ide]: http://blog.sanctum.geek.nz/unix-as-ide-introduction/
 [werc]: http://werc.cat-v.org/
