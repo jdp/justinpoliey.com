@@ -21,13 +21,15 @@ Wonder how languages like CoffeeScript or HAML work?
 Here's an introduction to source-to-source compilation,
 centered around writing a Brainfuck compiler in Python that emits C.
 
-<aside>Other things I've written can be found on my [old blog][blog-jdp].</aside>
+<aside>My personal Tumblr is [TXXGUH][txxguh]. I write about interesting code fragments on [Code Contraptions][code-contraptions]. Other things I've written can be found on my [old blog][blog-jdp].</aside>
 
 [autocomplete-search-with-redis]: http://engineering.getglue.com/post/36667374830/autocomplete-search-with-redis
 [blog-jdp]: http://blog.justinpoliey.com/
+[code-contraptions]: http://codecontraptions.tumblr.com
 [make-for-front-end-development]: /articles/make-for-front-end-development/
 [redis]: http://redis.io
 [source-to-source-compilation]: /articles/source-to-source-compilation/
 [static-sites-with-make]: /articles/static-sites-with-make/
 [svbtle-jdp]: http://jdp.svbtle.com
+[txxguh]: http://tumble.justinpoliey.com
 
