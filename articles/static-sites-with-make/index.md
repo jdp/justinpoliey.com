@@ -1,4 +1,4 @@
-% Static Sites with make(1)
+% Static Sites with make
 
 This website is built with a simple static site generator.
 Like most of the other systems,
