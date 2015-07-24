@@ -59,7 +59,7 @@ h3 > a {
     -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, from(#7A16F2), to(#F90CB9)) 100% 1;
     -webkit-border-image: -webkit-linear-gradient(left, #7A16F2, #F90CB9) 100% 1;
     border-style: solid;
-    border-width: 0 0 2px 0;
+    border-width: 0 0 3px 0;
     color: #333;
     padding-bottom: 1px;
     -webkit-transition: color 1s;
@@ -91,6 +91,11 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+    .wrap {
+        margin-left: 54px;
+        margin-right: 54px;
+    }
+
     article {
         column-count: 2;
         -moz-column-count: 2;
