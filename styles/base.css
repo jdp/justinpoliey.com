@@ -1,13 +1,37 @@
 body {
     font-family: Inconsolata, monospace;
-    line-height: 140%;
+    font-size: 19px;
+    line-height: 27px;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
+body{
+  background-size:27px 27px;
+  background-position: 0 0px;
+}
+body:hover{
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff 98%, #ccc 100%); 
+}
+
 h1 {
-    margin: 1em 0;
+    font-size: 37px;
+    line-height: 54px;
+    margin-top: 54px;
+    margin-bottom: 27px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 54px;
+  margin-top: 54px;
+  margin-bottom: 27px;
+}
+
+p, ul, ol, pre, table, blockquote {
+  margin-top: 27px;
+  margin-bottom: 27px;
 }
 
 a {
@@ -21,6 +45,13 @@ pre, code {
 
 a:hover {
     color: #333;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 27px;
+    margin-top: 27px;
+    margin-bottom: 27px;
 }
 
 h3 em {
@@ -38,7 +69,7 @@ h3 > a {
     border-style: solid;
     border-width: 0 0 2px 0;
     color: #333;
-    padding-bottom: 4px;
+    padding-bottom: 1px;
     -webkit-transition: color 1s;
     transition: color 1s;
 }
@@ -53,14 +84,13 @@ h3 > a:hover {
 }
 
 .wrap {
-    margin-left: 2em;
-    margin-right: 2em;
-    max-width: 960px;
+    margin-left: 27px;
+    margin-right: 27px;
 }
 
 aside {
     color: #999;
-    margin: 1em 0;
+    margin: 27px 0;
 }
 
 footer {
@@ -85,10 +115,10 @@ footer {
     }
 }
 
-/*@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     article {
         column-count: 3;
         -moz-column-count: 3;
         -webkit-column-count: 3;
     }
-}*/
+}
