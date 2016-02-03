@@ -1,4 +1,4 @@
-## Projects
+## Some Projects
 
 ### [Redisent][redisent] *Owner*
 
