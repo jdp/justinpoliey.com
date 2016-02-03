@@ -1,9 +1,10 @@
-## Articles
+## Stuff I Wrote
 
-### [Static Sites with make(1)][static-sites-with-make]
+### [Source-to-Source Compilation][source-to-source-compilation]
 
-Easily generate static sites from Markdown files with tools that you probably already have installed.
-It's how this site is maintained.
+Wonder how languages like CoffeeScript or HAML work?
+Here's an introduction to source-to-source compilation,
+centered around writing a Brainfuck compiler in Python that emits C.
 
 ### [Make for Front-End Development][make-for-front-end-development]
 
@@ -15,11 +16,10 @@ Here's an introduction to make in setting of building a small web application.
 
 Write-up on how we built GetGlue's [Redis][redis]-powered autocomplete search, with example code.
 
-### [Source-to-Source Compilation][source-to-source-compilation]
+### [Static Sites with make(1)][static-sites-with-make]
 
-Wonder how languages like CoffeeScript or HAML work?
-Here's an introduction to source-to-source compilation,
-centered around writing a Brainfuck compiler in Python that emits C.
+Easily generate static sites from Markdown files with tools that you probably already have installed.
+It's how this site is maintained.
 
 <aside>My personal Tumblr is [TXXGUH][txxguh]. I write about interesting code fragments on [Code Contraptions][code-contraptions]. Other things I've written can be found on my [old blog][blog-jdp].</aside>
 
