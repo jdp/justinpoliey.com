@@ -10,7 +10,7 @@ site: index.html articles
 index.html: index.html.fragment templates/base.html5
 	pandoc -t html5 -S --data-dir=. --template=base -o $@ $<
 
-FRAGMENTS = about.html contact.html articles/index.html projects/index.html
+FRAGMENTS = about.html articles/index.html projects/index.html
 
 .INTERMEDIATE: index.html.fragment
 index.html.fragment: $(FRAGMENTS)
