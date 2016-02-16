@@ -1,5 +1,5 @@
 [justin.d.poliey@gmail.com][email] \
-[@justinpoliey][twitter]
+<a href="https://twitter.com/justinpoliey" rel="me">@justinpoliey</a>
 
 [email]: mailto:justin.d.poliey@gmail.com
 [github]: http://github.com/jdp
