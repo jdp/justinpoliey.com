@@ -1,0 +1,42 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+pre, code {
+  font-family: "Inconsolata", monospace;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: initial;
+}
+
+header {
+  display: none;
+}
+
+.note-title {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.note-title:after {
+  content: "—";
+}
+
+article {
+  margin: 1rem;
+}
+
+footer {
+  border-top: solid #ccc 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

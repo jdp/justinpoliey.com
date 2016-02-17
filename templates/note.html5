@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html$if(lang)$ lang="$lang$"$endif$>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    $for(author-meta)$
+    <meta name="author" content="$author-meta$">
+    $endfor$
+    $if(date-meta)$
+    <meta name="dcterms.date" content="$date-meta$">
+    $endif$
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="target-densitydpi=device-dpi">
+    <title>$if(title)$$title$ - $endif$Justin Poliey</title>
+    <link href="http://fonts.googleapis.com/css?family=Work+Sans:400,700|Inconsolata:400" rel='stylesheet' type='text/css'>
+    <link href="/styles/note.css" rel="stylesheet" type="text/css">
+    <link href="/" rel="me">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">Justin Poliey</a></h1>
+    </header>
+
+    <article class="note">
+      $if(title)$
+      <h2 class="note-title"><a href=".">$title$</a></h2>
+      $endif$
+      $body$
+    </article>
+
+    <footer>
+      <p>&copy; 2009&ndash;2016 <a href="/">Justin Poliey</a></p>
+    </footer>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-6944790-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+  </body>
+</html>

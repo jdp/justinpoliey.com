@@ -3,12 +3,12 @@ REMOTEUSER = www-data
 REMOTEHOST = justinpoliey.com
 REMOTEDIR = /var/www/justinpoliey.com
 
-site: index.html articles
+site: index.html articles notes
 
 # front page
 
-index.html: index.html.fragment templates/base.html5
-	pandoc -t html5 -S --data-dir=. --template=base -o $@ $<
+index.html: content.yml index.mustache
+	mustache $^ > $@
 
 FRAGMENTS = about.html articles/index.html projects/index.html
 
@@ -26,6 +26,15 @@ articles: $(patsubst %.md, %.html, $(wildcard articles/*/index.md))
 
 articles/%.html: articles/%.md templates/article.html5
 	pandoc $(MDFLAGS) --template=article -o $@ $<
+
+# notes
+
+NOTES = remake/index.html
+
+notes: $(NOTES)
+
+$(NOTES): %.html: %.md templates/note.html5
+	pandoc $(MDFLAGS) --template=note -o $@ $<
 
 # catch-all for stray markdowns
 
