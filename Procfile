@@ -1,2 +1,2 @@
 web: python -m SimpleHTTPServer $PORT
-watch: while sleep 1; do ls *.md **/*.md | entr -d make; done
+watch: while sleep 1; do ls *.yml *.mustache *.md **/*.md | entr -d make; done
